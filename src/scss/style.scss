@@ -4,3 +4,23 @@
 @import 'base/__container';
 
 
+@import 'components/header/header';
+@import 'components/header/__title/header__title';
+
+@import 'components/call-to-buy/call-to-buy';
+
+@import 'components/content/content';
+
+@import 'components/food-pack/food-pack';
+@import 'components/food-pack/__description/food-pack__description';
+@import 'components/food-pack/__img/food-pack__img';
+@import 'components/food-pack/__slogan/food-pack__slogan';
+@import 'components/food-pack/__subtitle/food-pack__subtitle';
+@import 'components/food-pack/__title/food-pack__title';
+
+@import 'components/pack-wrapper/pack-wrapper';
+
+@import 'components/weight-label/weight-label';
+@import 'components/weight-label/__num/weight-label__num';
+@import 'components/weight-label/__unit/weight-label__unit';
+
