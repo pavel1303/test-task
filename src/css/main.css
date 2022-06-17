@@ -313,8 +313,24 @@ template {
   display: none;
 }
 
-p {
+.body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/images/background.png");
+  background-size: cover;
   font-family: "exo";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
