@@ -1,10 +1,17 @@
 .food-pack__substrate {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #1698d9;
     max-width: 100%;
     height: 48rem;
-    clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0% 9%);
+    -webkit-clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0% 9%);
+            clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0% 9%);
     border-radius: 1.2rem;
 }
