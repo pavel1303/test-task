@@ -3,4 +3,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 32rem;
+    @media screen and (max-width: 350px) {
+        max-width: 30rem;
+    }
 }

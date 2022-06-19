@@ -1,7 +1,11 @@
 .content {
-    margin-top: 2.4rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1166px) {
+        justify-content: center;
+        gap: 10px 30px;
+    }
 }
