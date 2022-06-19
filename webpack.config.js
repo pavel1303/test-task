@@ -27,7 +27,7 @@ module.exports = {
 
   plugins,
 
-  entry: './src/index.js', // Указываем точку входа - главный модуль приложения, в который импортируются все остальные
+  entry: './src/index.html', // Указываем точку входа - главный модуль приложения, в который импортируются все остальные
 
   output: {
     path: path.resolve(__dirname, 'dist'), // Директория, в которой будет размещаться итоговый бандл, папка dist в корне приложения
@@ -49,7 +49,7 @@ module.exports = {
         use: ['html-loader'],
       },
       {
-        test: /\.(s[ac|c])ss$/i,
+        test: /\.(css|scss)$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
