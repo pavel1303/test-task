@@ -11,6 +11,9 @@
     }
 }
 .pack-wrapper--disabled:hover{
+    .food-pack {
+        cursor: not-allowed;
+    }
     .food-pack__substrate{
         background-color: #b3b3b3;
     }

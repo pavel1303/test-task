@@ -401,11 +401,12 @@ html {
 }
 
 .call-to-buy {
-  max-width: 20.9rem;
+  max-width: 100%;
   margin-top: 1.4rem;
   font-size: 1.3rem;
   font-weight: 400;
   color: #ffffff;
+  text-align: center;
 }
 
 .link {
@@ -459,6 +460,7 @@ html {
   -webkit-clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0% 9%);
   clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0% 9%);
   border-radius: 1.2rem;
+  cursor: pointer;
 }
 
 .food-pack__text-wrapper {
@@ -578,6 +580,9 @@ html {
   background-color: #b3b3b3;
 }
 
+.pack-wrapper--disabled:hover .food-pack {
+  cursor: not-allowed;
+}
 .pack-wrapper--disabled:hover .food-pack__substrate {
   background-color: #b3b3b3;
 }
@@ -619,6 +624,41 @@ html {
   font-size: 2.1rem;
   color: #ffffff;
   line-height: 0.7;
+}
+
+.check-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 26rem;
+  height: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 0.2rem #ffffff solid;
+  border-radius: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  text-shadow: #000000 0 0 10rem;
+  text-align: center;
+  font-family: "exo";
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.check-btn:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */

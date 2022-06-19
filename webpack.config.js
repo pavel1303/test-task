@@ -27,7 +27,9 @@ module.exports = {
 
   plugins,
 
-  entry: './src/index.html', // Указываем точку входа - главный модуль приложения, в который импортируются все остальные
+  entry: [
+    './src/js/index.js', // Указываем точку входа - главный модуль приложения, в который импортируются все остальные
+    './src/index.html'] ,
 
   output: {
     path: path.resolve(__dirname, 'dist'), // Директория, в которой будет размещаться итоговый бандл, папка dist в корне приложения
@@ -66,7 +68,7 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.js$/,
+        test: /\.(js)$/,
         exclude: /node_modules/, // не обрабатываем файлы из node_modules
         use: {
           loader: 'babel-loader',
