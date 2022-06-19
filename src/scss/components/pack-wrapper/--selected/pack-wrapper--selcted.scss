@@ -1,0 +1,16 @@
+.pack-wrapper--selected{
+    .food-pack__substrate{
+        background-color: #d91667;
+    }
+    .weight-label{
+        background-color: #d91667;
+    }
+}
+.pack-wrapper--selected:hover{
+    .food-pack__substrate{
+        background-color: #e52e7a;
+    }
+    .weight-label{
+        background-color: #e52e7a;
+    }
+}

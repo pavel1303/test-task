@@ -1,0 +1,20 @@
+.pack-wrapper--disabled {
+    .food-pack__text-wrapper,
+    .food-pack__img{
+        opacity: 30%;
+    }
+    .food-pack__substrate{
+        background-color: #b3b3b3;
+    }
+    .weight-label{
+        background-color: #b3b3b3;
+    }
+}
+.pack-wrapper--disabled:hover{
+    .food-pack__substrate{
+        background-color: #b3b3b3;
+    }
+    .weight-label{
+        background-color: #b3b3b3;
+    }
+}

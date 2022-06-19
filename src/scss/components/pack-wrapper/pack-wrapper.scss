@@ -14,3 +14,11 @@
         max-width: 30rem;
     }
 }
+.pack-wrapper:hover{
+    .food-pack__substrate{
+        background-color: #2ea8e6;
+}
+    .weight-label{
+        background-color: #2ea8e6;
+    }
+}
